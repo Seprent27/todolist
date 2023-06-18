@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 400px;
+    list-style-type: none;
+    margin: 0 auto;
+    background-color: #111;
+    padding: 10px;
+}
+
+.navLink {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    transition: all 1s ease;
+}
+
+.navLink:hover {
+    transform: scale(1.2);
+    color: yellow;
+    background-color: #111;
+}
